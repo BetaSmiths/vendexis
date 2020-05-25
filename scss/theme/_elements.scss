@@ -22,7 +22,7 @@
 	&:hover {
 		background: $primary-color;
 		color: $white;
-		box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
+		box-shadow: 0px 10px 20px 0px rgba($theme-color1, 0.2);
 	}
 }
 .section-title {
@@ -134,6 +134,6 @@
 			font-weight: 600;
 		}
 		background: $primary-color;
-		box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
+		box-shadow: 0px 10px 20px 0px rgba($theme-color1, 0.2);
 	}
 }

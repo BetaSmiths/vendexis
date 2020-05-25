@@ -1,9 +1,9 @@
 .banner-area {
-	background: url(../img/banner.jpg) no-repeat center center/cover;
+	background: url(../img/vendexis-bkg.jpg) no-repeat center center/cover;
 	.overlay-bg {
-		background: -moz-linear-gradient(left, rgba(60,64,143,.95) 0%, rgba(91,97,207,.95) 100%);
-		background: -webkit-linear-gradient(left, rgba(60,64,143,.95) 0%,rgba(91,97,207,.95) 100%);
-		background: linear-gradient(to right, rgba(60,64,143,.95) 0%,rgba(91,97,207,.95) 100%);
+		background: -moz-linear-gradient(left, $theme-color1 0%, $theme-color2 100%);
+		background: -webkit-linear-gradient(left, $theme-color1 0%, $theme-color2 100%);
+		background: linear-gradient(to right, $theme-color1 0%, $theme-color2 100%);
 	}
 }
 .signle-service {
@@ -88,9 +88,9 @@
 	height: 350px;
 	position: relative;
 	.overlay-bg-content {
-		background: -moz-linear-gradient(left, rgba(60,64,143,.95) 0%, rgba(91,97,207,.95) 100%);
-		background: -webkit-linear-gradient(left, rgba(60,64,143,.95) 0%,rgba(91,97,207,.95) 100%);
-		background: linear-gradient(to right, rgba(60,64,143,.95) 0%,rgba(91,97,207,.95) 100%);
+		background: -moz-linear-gradient(left, $theme-color1 0%, $theme-color2 100%);
+		background: -webkit-linear-gradient(left, $theme-color1 0%, $theme-color2 100%);
+		background: linear-gradient(to right, $theme-color1 0%, $theme-color2 100%);
 		text-align: center;
 		padding: 50px 100px;
 		p {
@@ -144,9 +144,9 @@
 		background-size: cover !important;
 		height: 300px;
 		.overlay-member {
-			background: -moz-linear-gradient(left, rgba(60,64,143,.95) 0%, rgba(91,97,207,.95) 100%);
-			background: -webkit-linear-gradient(left, rgba(60,64,143,.95) 0%,rgba(91,97,207,.95) 100%);
-			background: linear-gradient(to right, rgba(60,64,143,.95) 0%,rgba(91,97,207,.95) 100%);
+			background: -moz-linear-gradient(left, $theme-color1 0%, $theme-color2 100%);
+			background: -webkit-linear-gradient(left, $theme-color1 0%, $theme-color2 100%);
+			background: linear-gradient(to right, $theme-color1 0%, $theme-color2 100%);
 			text-align: center;
 			padding: 30px;
 			p {
@@ -236,9 +236,9 @@
 .single-pricing-table {
 	margin-top: 30px;
 	.top {
-		background-image: -moz-linear-gradient( 0deg, rgb(60,64,143) 0%, rgb(91,97,207) 100%);
-		background-image: -webkit-linear-gradient( 0deg, rgb(60,64,143) 0%, rgb(91,97,207) 100%);
-		background-image: -ms-linear-gradient( 0deg, rgb(60,64,143) 0%, rgb(91,97,207) 100%);
+		background-image: -moz-linear-gradient( 0deg, $theme-color1 0%, $theme-color2 100%);
+		background-image: -webkit-linear-gradient( 0deg, $theme-color1 0%, $theme-color2 100%);
+		background-image: -ms-linear-gradient( 0deg, $theme-color1 0%, $theme-color2 100%);
 		.head {
 			padding: 35px 20px;
 			span {
@@ -343,7 +343,7 @@
 		&:focus {
 			outline: none;
 			border: 1px solid transparent;
-			box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
+			box-shadow: 0px 10px 20px 0px rgba($theme-color1, 0.2);
 		}
 	}
 	textarea {
@@ -358,7 +358,7 @@
 		&:focus {
 			outline: none;
 			border: 1px solid transparent;
-			box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
+			box-shadow: 0px 10px 20px 0px rgba($theme-color1, 0.2);
 		}
 	}
 }
